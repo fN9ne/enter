@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- кодировка -->
+		<meta charset="utf-8">
+		<!-- картинка сайта -->
+		<link rel="shortcut icon" href="img/logopc.svg">
+		<!-- адаптив под девайсы -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- название сайта -->
+		<title>Enter</title>
+		<!-- стили -->
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- подключение Material Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- подключение jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- подключение Font Awesome -->
+		<script src="https://kit.fontawesome.com/0466223aa3.js" crossorigin="anonymous"></script>
+		<!-- подключение шрифтов Russo One ( 400 ), Montserrat ( 300, 300i, 400, 700, 800 ), Play ( 800 ) -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,300&family=Play:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- прелоадер -->
+		<div class="preloader-container">
+			<img src="img/logo.svg" class="loader-logo">
+			<div class="loader-bg">
+				<div class="loader"></div>
+			</div>
+		</div>
+		<!-- хедер -->
+		<header class='header' id="main">
+			<div class='header__wrapper _wrapper'>
+				<div class="header__top">
+					<div class="header__top-container header__top-container_1">
+						<img src="img/logo.svg" class="header__logo">
+						<nav class='header__menu'>
+						<ul class='header__list'>
+							<li class='header__item'><a href='#about' class='header__link'>О нас</a></li>
+							<li class='header__item'><a href='' class='header__link'>Компьютеры</a></li>
+							<li class='header__item'><a href='' class='header__link'>Ноутбуки</a></li>
+							<li class='header__item'><a href='' class='header__link'>Комплектующие ПК</a></li>
+							<li class='header__item'><a href='#contacts' class='header__link'>Контакты</a></li>
+						</ul>
+						</nav>
+					</div>
+					<div class="header__top-container header__top-container_2">
+						<form action="" method="get" class="header__form">
+							<div class="header__search">
+								<input type="search" placeholder="поиск" name="search">
+							</div>
+							<button type="submit"></button>
+						</form>
+						<a href="" class="header__account"></a>
+						<div class="header__burger burger">
+							<div class="burger__button"></div>
+							<div class="burger__content">
+								<a href="" class="burger__account">
+									<div class="burger__user"></div>
+								</a>
+								<div class="burger__container">
+									<form action="" method="get" class="burger__forms">
+										<div class="burger__search">
+											<input type="search" placeholder="поиск" name="search">
+										</div>
+										<button type="submit"></button>
+									</form>
+									<nav class='burger__menu'>
+										<ul class='burger__list'>
+											<li class='burger__item'><a href='#about' class='burger__link'>О нас</a></li>
+											<li class='burger__item'><a href='' class='burger__link'>Компьютеры</a></li>
+											<li class='burger__item'><a href='' class='burger__link'>Ноутбуки</a></li>
+											<li class='burger__item'><a href='' class='burger__link'>Комплектующие ПК</a></li>
+											<li class='burger__item'><a href='#contacts' class='burger__link'>Контакты</a></li>
+										</ul>
+									</nav>
+								</div>
+								<div class="burger__socials">
+									<a href="https://www.instagram.com/" target="_blank" class="burger__social burger__social_1"></a>
+									<a href="https://www.facebook.com/" target="_blank" class="burger__social burger__social_2"></a>
+									<a href="https://www.twitter.com/" target="_blank" class="burger__social burger__social_3"></a>
+									<a href="https://www.t.me/" target="_blank" class="burger__social burger__social_4"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__middle">
+					<div class="header__navigator navigator">
+						<div class="navigator__dots">
+							<a href="#main" class="navigator__item navigator__active">
+								<div class="navigator__circle"></div>
+							</a>
+							<a href="#about" class="navigator__item">
+								<div class="navigator__circle"></div>
+							</a>
+							<a href="#contacts" class="navigator__item">
+								<div class="navigator__circle"></div>
+							</a>
+						</div>
+						<a href="#about"><img src="img/long-arrow.svg" class="navigator__arrow"></a>
+					</div>
+					<div class="header__picture"></div>
+					<div class="header__socials">
+						<a href="https://www.instagram.com/" class="header__social">instagram</a>
+						<a href="https://www.facebook.com/" class="header__social">facebook</a>
+						<a href="https://www.twitter.com/" class="header__social">twitter</a>
+						<a href="https://www.t.me/" class="header__social">email</a>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__number">
+						<span>01</span>
+						<span>03</span>
+					</div>
+					<div class="header__create create">
+						<a href="" class="create__button"></a>
+						<span>Создай свою “машину времени”</span>
+					</div>
+					<div class="header__language">
+						<a href="indexEn.html">En</a>
+						<a href="index.html" class="langActive">RU</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- о нас -->
+		<section class='about' id="about">
+			<div class='about__wrapper _wrapper'>
+				<div class="about__container">
+					<div class="about__label">О нас</div>
+					<div class="about__content">
+						<div class="about__navigator navigator">
+							<a href="#main" class="about__navigator-arrow navigator__arrow"></a>
+							<div class="about__navigator-dots navigator__dots">
+								<a href="#main" class="about__navigator-item navigator__item">
+									<div class="about__navigator-circle navigator__circle"></div>
+								</a>
+								<a href="#about" class="about__navigator-item navigator__item about__navigator-active navigator__active">
+									<div class="about__navigator-circle navigator__circle"></div>
+								</a>
+								<a href="#contacts" class="about__navigator-item navigator__item">
+									<div class="about__navigator-circle navigator__circle"></div>
+								</a>
+							</div>
+							<a href="#contacts" class="about__navigator-arrow navigator__arrow"></a>
+						</div>
+						<div class='about__text'>
+							<div class='about__title'>
+								<p>“Мы - молодая компания,</p>
+								<p>которая хочет изменить мир!”</p>
+							</div>
+							<div class='about__subtitle'><p>На сегодняшний день, большинство из нас сталкиваются с разными проблемами связанными с компьютерами, как например, от обычной ошибки на компьютере до поломки процессора.</p><p><span>Цель нашего проекта:</span> модернизировать наше общество, помочь разобраться с проблемами новых технологий, научить пользоваться компьютерами и ноутбуками, а так же научить их собирать различные виды ПК</p></div>
+						</div>
+					</div>
+					<div class="about__contact">
+						<span>Возникли вопросы? Обращайся к нам!</span>
+						<a href="#contacts">Контакты</a>
+					</div>
+					<div class="about__number"><span>02</span><span>03</span></div>
+				</div>
+				<div class="about__slider slider">
+					<div class="slider__item slider__item_1"><img src="img/men.png" class="slider__picture"></div>
+					<div class="slider__item slider__item_2"><img src="img/men.png" class="slider__picture"></div>
+					<div class="slider__item slider__item_3"><img src="img/men.png" class="slider__picture"></div>
+				</div>
+				<div class="slider__statusbar">
+					<div class="slider__dots"></div>
+					<div class="slider__arrows"></div>
+					<div class="slider__text">
+						<div class="slider__title">Денис Иткин</div>
+						<div class="slider__subtitle">Создатель и руководитель компании ENTER</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- контакты -->
+		<section class='contact' id="contacts">
+			<div class="contact__label">КОНТАКТЫ</div>
+			<div class='contact__wrapper _wrapper'>
+				<div class="contact__navigator navigator">
+					<a href="#about" class="contact__navigator-arrow navigator__arrow"></a>
+					<div class="contact__navigator-dots navigator__dots">
+						<a href="#main" class="contact__navigator-item navigator__item">
+							<div class="contact__navigator-circle navigator__circle"></div>
+						</a>
+						<a href="#about" class="contact__navigator-item navigator__item">
+							<div class="contact__navigator-circle navigator__circle"></div>
+						</a>
+						<a href="#contact" class="contact__navigator-item navigator__item contact__navigator-active navigator__active">
+							<div class="contact__navigator-circle navigator__circle"></div>
+						</a>
+					</div>
+				</div>
+				<div class="contact__container">
+					<div class='contact__text'>
+						<div class='contact__title'>Свяжись с нами!</div>
+						<div class='contact__subtitle'>Если хотите узнать более подробную информацию о компании ENTER, просто заполните форму и в ближайшее время мы свяжемся с вами.</div>
+					</div>
+					<div class="contact__socials">
+						<div class="contact__socials-title">Социальные сети компании ENTER:</div>
+						<div class="contact__socials-container">
+							<a href="https://www.instagram.com/" class="contact__socials-item contact__socials-item_1"></a>
+							<a href="https://www.facebook.com/" class="contact__socials-item contact__socials-item_2"></a>
+							<a href="https://www.twitter.com/" class="contact__socials-item contact__socials-item_3"></a>
+							<a href="https://www.t.me/" class="contact__socials-item contact__socials-item_4"></a>
+						</div>
+					</div>
+				</div>
+				<form action="" method="get" class="contact__forms">
+					<div class="contact__forms-title">Заполните форму</div>
+					<div class="contact__forms-item">
+						<input type="text" name="first_name" placeholder="Имя">
+					</div>
+					<div class="contact__forms-item">
+						<input type="text" name="last_name" placeholder="Фамилия">
+					</div>
+					<div class="contact__forms-item">
+						<input type="email" name="email" placeholder="E-mail">
+					</div>
+					<div class="contact__forms-item">
+						<input type="text" name="message" placeholder="Сообщение">
+					</div>
+					<div class="contact__forms-item">
+						<button type="submit">Отправить</button>
+					</div>
+				</form>
+			</div>
+			<div class="contact__number"><span>03</span><span>03</span></div>
+		</section>
+		<!-- файл скриптов -->
+		<script src="js/script.min.js"></script>
+	</body>
+</html>
